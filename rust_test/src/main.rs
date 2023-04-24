@@ -7,7 +7,7 @@ struct Point {
 }
 
 fn main() {
-    let mut points = Vec::with_capacity(DEFAULT_TEST_SIZE);
+    let mut points = vec![];
     for i in 0..DEFAULT_TEST_SIZE {
         points.push(Point {
             x: i as f64,
