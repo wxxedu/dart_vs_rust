@@ -1,3 +1,5 @@
-int calculate() {
-  return 6 * 7;
+class Point {
+  Point(this.x, this.y);
+  double x;
+  double y;
 }
